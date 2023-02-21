@@ -1,0 +1,15 @@
+[submodule "Deus-Hex-Machina"]
+	path = Deus-Hex-Machina
+	url = https://github.com/Samin325/Deus-Hex-Machina.git
+[submodule "H3X460N"]
+	path = H3X460N
+	url = https://github.com/lucylow/H3X460N.git
+[submodule "UAIS-2022-Hex-Bot"]
+	path = UAIS-2022-Hex-Bot
+	url = https://github.com/thyckcorgis/UAIS-2022-Hex-Bot.git
+[submodule "Test-Hex-Bot-Please-Ignore"]
+	path = Test-Hex-Bot-Please-Ignore
+	url = https://github.com/MarkHolmstrom/Test-Hex-Bot-Please-Ignore.git
+[submodule "Hex-bot"]
+	path = Hex-bot
+	url = https://github.com/MiChaelinzo/Hex-bot.git
