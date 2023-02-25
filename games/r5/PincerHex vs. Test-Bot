@@ -1,0 +1,22 @@
+Black: PincerHex
+White: Test Bot
+
+Black's move: c2
+White's move: swap
+
+Colors Change
+
+White's move: f6
+Black's move: g4
+White's move: e5
+Black's move: e4
+White's move: f4
+Black's move: f3
+White's move: g3
+Black's move: g2
+White's move: h2
+Black's move: i1
+White's move: h1
+Black's move:
+
+Black failed to return a valid move. Winner: PincerHex
