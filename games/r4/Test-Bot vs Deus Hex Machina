@@ -1,0 +1,26 @@
+Black: Deus Hex Machina
+White: Test Bot
+
+Black's move: b2
+White's move: e5
+Black's move: d8
+White's move: c8
+Black's move: b9
+White's move: c9
+Traceback (most recent call last):
+  File "../../../uais/2022Hex/Deus-Hex-Machina/src/main.py", line 63, in <module>
+    main()
+  File "../../../uais/2022Hex/Deus-Hex-Machina/src/main.py", line 39, in main
+    bot.run_command(cmd)
+  File "/mnt/d/Over9000/Documents/uais/2022Hex/Deus-Hex-Machina/src/bot.py", line 78, in run_command
+    self.pub[cmd[0]]()
+  File "/mnt/d/Over9000/Documents/uais/2022Hex/Deus-Hex-Machina/src/bot.py", line 794, in make_move
+    self.sety(str(move))
+  File "/mnt/d/Over9000/Documents/uais/2022Hex/Deus-Hex-Machina/src/bot.py", line 163, in sety
+    coord = Coord(*Coord.str2cart(move))
+  File "/mnt/d/Over9000/Documents/uais/2022Hex/Deus-Hex-Machina/src/coord.py", line 63, in str2cart
+    x = ord(name[0]) - ord('a') + 1
+IndexError: string index out of range
+Black's move:
+
+Black failed to return a valid move. Winner: Test Bot
