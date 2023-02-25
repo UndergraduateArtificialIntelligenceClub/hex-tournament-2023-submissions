@@ -1,0 +1,8 @@
+Black: Test Bot
+White: Deus Hex Machina
+
+run 10
+Black's move: b3
+White's move: Cmd not recognized. Please refer to known commands below:
+
+White failed to return a valid move. Winner: Test Bot
