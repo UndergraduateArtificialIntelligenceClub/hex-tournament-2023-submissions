@@ -1,0 +1,22 @@
+Black: Deus Hex Machina
+White:  Pincerhex
+
+Black's move: b2
+White's move: swap
+White's move: e6
+Black's move: f4
+White's move: h3
+Black's move: g5
+White's move: e9
+Black's move: i4
+White's move: d5
+Black's move: e3
+White's move: c3
+Black's move: c4
+White's move: d8
+Black's move: b4
+White's move: e1
+Black's move: f5
+thread 'main' panicked at 'Black bot returned invalid move `e1`!', src/central_controller.rs:222:9
+
+Black failed to return a valid move. White wins.

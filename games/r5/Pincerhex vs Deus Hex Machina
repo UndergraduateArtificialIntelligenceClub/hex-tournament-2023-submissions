@@ -1,0 +1,8 @@
+Black: Pincerhex
+White: Deus Hex Machina
+
+
+Black's move: j9
+thread 'main' panicked at 'attempt to subtract with overflow', src/board.rs:125:17
+
+White failed to return a valid move. Black wins.

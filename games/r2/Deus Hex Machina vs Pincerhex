@@ -1,0 +1,34 @@
+Black: Deus Hex Machina
+White: Pincerhex
+
+Black's move: b2
+White's move: h3
+Black's move: f5
+White's move: g5
+Black's move: f7
+White's move: h6
+Black's move: i7
+White's move: g8
+Black's move: b9
+White's move: h2
+Black's move: d8
+White's move: f10
+Black's move: g7
+White's move: h7
+Traceback (most recent call last):
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/main.py", line 63, in <module>
+    main()
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/main.py", line 39, in main
+    bot.run_command(cmd)
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/bot.py", line 78, in run_command
+    self.pub[cmd[0]]()
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/bot.py", line 794, in make_move
+    self.sety(str(move))
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/bot.py", line 163, in sety
+    coord = Coord(*Coord.str2cart(move))
+  File "/tmp/hex-tournament-2023-submissions/Deus-Hex-Machina/src/coord.py", line 63, in str2cart
+    x = ord(name[0]) - ord('a') + 1
+IndexError: string index out of range
+thread 'main' panicked at 'called `Option::unwrap()` on a `None` value', src/board.rs:125:35
+
+Black failed to return a valid move. White wins.
